@@ -486,7 +486,9 @@ function drawText() {
 }
 
 function draw() {
-    context.putImageData(baseFrame, 0, 0);
+    // Clear the canvas with a dark background
+    context.fillStyle = "#111";
+    context.fillRect(0, 0, canvas.width, canvas.height);
 
     drawStars();
     updateStars();
@@ -504,7 +506,6 @@ window.addEventListener("resize", function () {
     canvas.height = window.innerHeight;
     canvas.style.width = "100%";
     canvas.style.height = "100%";
-    baseFrame = context.getImageData(0, 0, window.innerWidth, window.innerHeight);
     
     // Reinitialize stars on resize
     starArray = [];

@@ -92,7 +92,6 @@ var imageList = [
     'pictures/DSCN0292.JPG',
     'pictures/IMG_1742.jpg',
     'pictures/IMG_1751.jpg',
-    'pictures/IMG_5495.PNG',
     'pictures/IMG_5567.JPG',
     'pictures/IMG_5973.jpg',
     'pictures/IMG_6945.JPG',
